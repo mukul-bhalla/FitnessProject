@@ -1,0 +1,81 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+}
+
+.bmi-calc {
+    padding: 5em 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    width: 30%;
+    /* margin-left: 30%; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNx-sTJDe6V601ZtVMhVmkf_i0UBJ6BbuZ2w&usqp=CAU); */
+}
+
+.input {
+    margin-top: 1em;
+    width: 12.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+.ans,
+.ans1 {
+    margin-top: 3em;
+    width: 12.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+}
+
+.final-btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.calc {
+    margin-top: 4em;
+    margin-bottom: 2em;
+    background-color: black;
+    font-size: medium;
+    color: white;
+    border-radius: 5px;
+    border: solid 2px white;
+    padding: 1em 5em;
+
+}
+
+.calc:hover {
+    background-color: grey;
+}
+
+.done:hover {
+    background-color: grey;
+}
+
+@media(max-width:860px) {
+    .bmi-calc {
+        width: 60%;
+    }
+}
+
+@media (max-width:450px) {
+    .bmi-calc {
+        width: 100%;
+        padding: 2em 0em;
+    }
+
+}

@@ -1,0 +1,32 @@
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+
+.slideShow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.mySlides {
+    width: 60%;
+    height: 26em;
+    border-radius: 20px;
+}
+
+@media (max-width:860px) {
+    .mySlides {
+        width: 80%;
+    }
+
+}
+
+@media (max-width:420px) {
+    .mySlides {
+        width: 100%;
+        margin: 2em 0em;
+    }
+
+}
