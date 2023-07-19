@@ -10,19 +10,19 @@ bmi.addEventListener('submit', (e) => {
     ans.style.color = 'black'
 
     if (calBmi < 18.5) {
-        ans1.innerText = `You are Underweight`;
+        ans1.innerHTML = `<b>You are Underweight</b>`;
         ans1.style.color = "orange";
     }
     else if (calBmi < 24.9) {
-        ans1.innerText = `You are Healthy`;
+        ans1.innerHTML = `<b>You are Healthy</b>`;
         ans1.style.color = "green";
     }
     else if (calBmi < 30) {
-        ans1.innerText = `You are Overweight`;
+        ans1.innerHTML = `<b>You are Overweight</b>`;
         ans1.style.color = "orange";
     }
     else {
-        ans1.innerText = `You are Obese`;
+        ans1.innerHTML = `<b>You are Obese</b>`;
         ans1.style.color = "red";
     }
     // ans1.style.backgroundColor = "white";
