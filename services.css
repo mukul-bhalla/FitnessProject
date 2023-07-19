@@ -20,6 +20,53 @@
     /* padding-bottom: 5em;
      */
     margin-bottom: 4em;
+    transition: 0.3s;
+}
+
+.aerobic:hover,
+.yoga:hover,
+.pool:hover,
+.gym:hover {
+    /* border: 2px solid white;
+    border-radius: 15px;
+    width: 30%;
+    /* height: 40%; */
+    /* padding-bottom: 5em;
+     */
+    /* margin-bottom: 4em; */
+    background-color: white;
+    padding: 2.3em 2em;
+    /* color: black; */
+}
+
+.aerobic:hover .text,
+.yoga:hover .text,
+.pool:hover .text,
+.gym:hover .text {
+    /* border: 2px solid white;
+    border-radius: 15px;
+    width: 30%; */
+    /* height: 40%; */
+    /* padding-bottom: 5em;
+     */
+    /* margin-bottom: 4em; */
+    /* background-color: white; */
+    color: black;
+}
+
+.aerobic:hover h2,
+.yoga:hover h2,
+.pool:hover h2,
+.gym:hover h2 {
+    /* border: 2px solid white;
+    border-radius: 15px;
+    width: 30%; */
+    /* height: 40%; */
+    /* padding-bottom: 5em;
+     */
+    /* margin-bottom: 4em; */
+    /* background-color: white; */
+    color: black;
 }
 
 
