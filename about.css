@@ -23,20 +23,15 @@
     /* margin-bottom: 4em; */
 }
 
-.support: hover,
-.tools: hover,
+.support:hover,
+.tools:hover,
 .convenience:hover {
-    background-color: white;
-    color: black;
     /* width: 23.5%; */
-    padding: 2.3em 2.3em;
+    /* padding: 2.3em 2.3em; */
+    transform: scale(1.1);
+    transition: 500ms;
 }
 
-.tools:hover .effects,
-.support:hover .effects,
-.convenience:hover .effects {
-    color: black;
-}
 
 
 .icons {
